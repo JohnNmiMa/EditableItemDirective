@@ -1,7 +1,16 @@
 body {
-    padding:30px 0;
+    padding:0 30px 30px 30px;
 }
 
-.container {
+.Save {
+    color: #b70000;
+}
 
+.btnContainer {
+    text-align:center;
+}
+@media(min-width:768px) {
+    button {
+        margin-top: 20px;
+    }
 }

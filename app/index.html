@@ -13,52 +13,42 @@
 </head>
 
 <body ng-controller="editDirectiveCtrl">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-10">
-                <p edit-item>
-                    `Twas brillig, and the slithy toves
-                    Did gyre and gimble in the wabe:
-                    All mimsy were the borogoves,
-                    And the mome raths outgrabe.
+    <div make-editable>
+        <h2> The Jabberwocky - by Lewis Carroll</h2>
+        <p> `Twas brillig, and the slithy toves<br>
+            Did gyre and gimble in the wabe:<br>
+            All mimsy were the borogoves,<br>
+            And the mome raths outgrabe.</p>
 
-                    "Beware the Jabberwock, my son!
-                    The jaws that bite, the claws that catch!
-                    Beware the Jubjub bird, and shun
-                    The frumious Bandersnatch!"
+        <p> "Beware the Jabberwock, my son!<br>
+            The jaws that bite, the claws that catch!<br>
+            Beware the Jubjub bird, and shun<br>
+            The frumious Bandersnatch!"</p>
 
-                    He took his vorpal sword in hand:
-                    Long time the manxome foe he sought --
-                    So rested he by the Tumtum tree,
-                    And stood awhile in thought.
+        <p> He took his vorpal sword in hand:<br>
+            Long time the manxome foe he sought --<br>
+            So rested he by the Tumtum tree,<br>
+            And stood awhile in thought.</p>
 
-                    And, as in uffish thought he stood,
-                    The Jabberwock, with eyes of flame,
-                    Came whiffling through the tulgey wood,
-                    And burbled as it came!
+        <p> And, as in uffish thought he stood,<br>
+            The Jabberwock, with eyes of flame,<br>
+            Came whiffling through the tulgey wood,<br>
+            And burbled as it came!</p>
 
-                    One, two! One, two! And through and through
-                    The vorpal blade went snicker-snack!
-                    He left it dead, and with its head
-                    He went galumphing back.
+        <p> One, two! One, two! And through and through<br>
+            The vorpal blade went snicker-snack!<br>
+            He left it dead, and with its head<br>
+            He went galumphing back.</p>
 
-                    "And, has thou slain the Jabberwock?
-                    Come to my arms, my beamish boy!
-                    O frabjous day! Callooh! Callay!'
-                    He chortled in his joy.
+        <p> "And, has thou slain the Jabberwock?<br>
+            Come to my arms, my beamish boy!<br>
+            O frabjous day! Callooh! Callay!'<br>
+            He chortled in his joy.</p>
 
-                    `Twas brillig, and the slithy toves
-                    Did gyre and gimble in the wabe;
-                    All mimsy were the borogoves,
-                    And the mome raths outgrabe.
-                </p>
-            </div>
-            <div class="col-sm-2">
-                <button type="button" ng-click="toggleEdit()" class="btn"
-                        ng-class="{'btn-primary':btnMode == 'Edit', 'btn-default':btnMode == 'Save'}">
-                        {{btnMode}}</button>
-            </div>
-        </div>
+        <p> `Twas brillig, and the slithy toves<br>
+            Did gyre and gimble in the wabe;<br>
+            All mimsy were the borogoves,<br>
+            And the mome raths outgrabe.</p>
     </div>
 
     <!-- build:js ./_assets/combined.js -->

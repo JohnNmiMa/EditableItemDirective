@@ -1,0 +1,11 @@
+<div class="container" contenteditable="{{btnText == 'Save'}}">
+    <div class="row">
+        <div class="col-sm-10">
+            <span class="ng-transclude" ng-class="btnText"></span>
+        </div>
+        <div class="col-sm-2 btnContainer">
+            <button type="button" class="btn"
+                    ng-class="{'btn-primary':btnText == 'Edit', 'btn-default':btnText == 'Save'}">{{btnText}}</button>
+        </div>
+    </div>
+</div>
